@@ -1,6 +1,6 @@
 # AGCustomControls
 
-[![CI Status](https://img.shields.io/travis/togohi/AGCustomControls.svg?style=flat)](https://travis-ci.org/togohi/AGCustomControls)
+[![Build Status](https://travis-ci.com/ToGohi/AGCustomControls.svg?branch=master)](https://travis-ci.com/ToGohi/AGCustomControls)
 [![Version](https://img.shields.io/cocoapods/v/AGCustomControls.svg?style=flat)](https://cocoapods.org/pods/AGCustomControls)
 [![License](https://img.shields.io/cocoapods/l/AGCustomControls.svg?style=flat)](https://cocoapods.org/pods/AGCustomControls)
 [![Platform](https://img.shields.io/cocoapods/p/AGCustomControls.svg?style=flat)](https://cocoapods.org/pods/AGCustomControls)

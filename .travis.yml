@@ -4,6 +4,6 @@ xcode_project: AGCustomControls.xcodeproj
 xcode_scheme: AGCustomControlsTests
 branches:
   only:
-  - develop
+  - master
 script:
   xcodebuild -project AGCustomControls.xcodeproj -scheme AGCustomControlsTests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
