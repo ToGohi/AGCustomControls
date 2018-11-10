@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BB3B132F171A006E4FEBE3A /* Pods_AGCustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */; };
 		AD96A7352196C76C004B3874 /* AGCustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = AD96A7332196C76C004B3874 /* AGCustomControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD96A73E2196C776004B3874 /* AGCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96A73B2196C776004B3874 /* AGCustomButton.swift */; };
 		AD96A73F2196C776004B3874 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AD96A73C2196C776004B3874 /* LICENSE */; };
 		AD96A7462196D791004B3874 /* AGCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96A7452196D790004B3874 /* AGCustomView.swift */; };
+		ADEAF1772196F59D00CE068D /* AGCustomControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1762196F59C00CE068D /* AGCustomControlsTests.swift */; };
+		ADEAF1792196F59D00CE068D /* AGCustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD96A7302196C76C004B3874 /* AGCustomControls.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ADEAF17A2196F59D00CE068D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD96A7272196C76C004B3874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD96A72F2196C76C004B3874;
+			remoteInfo = AGCustomControls;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGCustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0F9449B62597059EC23BB7 /* Pods_AGCustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGCustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09D8875FFA70518DC2608B0 /* Pods-AGCustomControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.debug.xcconfig"; sourceTree = "<group>"; };
 		AD96A7302196C76C004B3874 /* AGCustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGCustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD96A7332196C76C004B3874 /* AGCustomControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGCustomControls.h; sourceTree = "<group>"; };
 		AD96A7342196C76C004B3874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD96A73B2196C776004B3874 /* AGCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGCustomButton.swift; sourceTree = "<group>"; };
 		AD96A73C2196C776004B3874 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AD96A7452196D790004B3874 /* AGCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGCustomView.swift; sourceTree = "<group>"; };
-		AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.debug.xcconfig"; sourceTree = "<group>"; };
-		C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.release.xcconfig"; sourceTree = "<group>"; };
+		ADEAF1742196F59C00CE068D /* AGCustomControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGCustomControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEAF1762196F59C00CE068D /* AGCustomControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGCustomControlsTests.swift; sourceTree = "<group>"; };
+		ADEAF1782196F59D00CE068D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE7987C2C25E1E186402359 /* Pods-AGCustomControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB3B132F171A006E4FEBE3A /* Pods_AGCustomControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF1712196F59C00CE068D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF1792196F59D00CE068D /* AGCustomControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,16 +62,16 @@
 		3D4D38B70AFDAF19C9C2CFE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */,
+				7F0F9449B62597059EC23BB7 /* Pods_AGCustomControls.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4378F71A0CE8A679B224D236 /* Pods */ = {
+		45C434B26BEC0AECC17C86CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */,
-				C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */,
+				A09D8875FFA70518DC2608B0 /* Pods-AGCustomControls.debug.xcconfig */,
+				DBE7987C2C25E1E186402359 /* Pods-AGCustomControls.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -59,9 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				AD96A7322196C76C004B3874 /* AGCustomControls */,
+				ADEAF1752196F59C00CE068D /* AGCustomControlsTests */,
 				AD96A7312196C76C004B3874 /* Products */,
-				4378F71A0CE8A679B224D236 /* Pods */,
 				3D4D38B70AFDAF19C9C2CFE2 /* Frameworks */,
+				45C434B26BEC0AECC17C86CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				AD96A7302196C76C004B3874 /* AGCustomControls.framework */,
+				ADEAF1742196F59C00CE068D /* AGCustomControlsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,15 @@
 				AD96A7342196C76C004B3874 /* Info.plist */,
 			);
 			path = AGCustomControls;
+			sourceTree = "<group>";
+		};
+		ADEAF1752196F59C00CE068D /* AGCustomControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEAF1762196F59C00CE068D /* AGCustomControlsTests.swift */,
+				ADEAF1782196F59D00CE068D /* Info.plist */,
+			);
+			path = AGCustomControlsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,18 +150,40 @@
 			productReference = AD96A7302196C76C004B3874 /* AGCustomControls.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		ADEAF1732196F59C00CE068D /* AGCustomControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEAF17C2196F59D00CE068D /* Build configuration list for PBXNativeTarget "AGCustomControlsTests" */;
+			buildPhases = (
+				ADEAF1702196F59C00CE068D /* Sources */,
+				ADEAF1712196F59C00CE068D /* Frameworks */,
+				ADEAF1722196F59C00CE068D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEAF17B2196F59D00CE068D /* PBXTargetDependency */,
+			);
+			name = AGCustomControlsTests;
+			productName = AGCustomControlsTests;
+			productReference = ADEAF1742196F59C00CE068D /* AGCustomControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AD96A7272196C76C004B3874 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Antonio Gonzalez Hidalgo";
 				TargetAttributes = {
 					AD96A72F2196C76C004B3874 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
+					};
+					ADEAF1732196F59C00CE068D = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -146,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				AD96A72F2196C76C004B3874 /* AGCustomControls */,
+				ADEAF1732196F59C00CE068D /* AGCustomControlsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD96A73F2196C776004B3874 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF1722196F59C00CE068D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +258,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADEAF1702196F59C00CE068D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF1772196F59D00CE068D /* AGCustomControlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEAF17B2196F59D00CE068D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD96A72F2196C76C004B3874 /* AGCustomControls */;
+			targetProxy = ADEAF17A2196F59D00CE068D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AD96A7362196C76C004B3874 /* Debug */ = {
@@ -323,7 +401,7 @@
 		};
 		AD96A7392196C76C004B3874 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */;
+			baseConfigurationReference = A09D8875FFA70518DC2608B0 /* Pods-AGCustomControls.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -351,7 +429,7 @@
 		};
 		AD96A73A2196C76C004B3874 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */;
+			baseConfigurationReference = DBE7987C2C25E1E186402359 /* Pods-AGCustomControls.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -376,6 +454,42 @@
 			};
 			name = Release;
 		};
+		ADEAF17D2196F59D00CE068D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMF8EH2Q33;
+				INFOPLIST_FILE = AGCustomControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apptonio.AGCustomControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEAF17E2196F59D00CE068D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMF8EH2Q33;
+				INFOPLIST_FILE = AGCustomControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apptonio.AGCustomControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -393,6 +507,15 @@
 			buildConfigurations = (
 				AD96A7392196C76C004B3874 /* Debug */,
 				AD96A73A2196C76C004B3874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEAF17C2196F59D00CE068D /* Build configuration list for PBXNativeTarget "AGCustomControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEAF17D2196F59D00CE068D /* Debug */,
+				ADEAF17E2196F59D00CE068D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,7 +16,7 @@ it, simply add the following line to your Podfile:
 pod 'AGCustomControls'
 ```
 
-## DESCRIPTION
+## Description
 
 * **AGCustomButton**, it's a customizable UIButton. You can set up the bellow properties from interface builder:
 	* Corner Radius

@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode10.1
+xcode_project: AGCustomControls.xcodeproj
+xcode_scheme: AGCustomControls
+branches:
+  only:
+  - develop
