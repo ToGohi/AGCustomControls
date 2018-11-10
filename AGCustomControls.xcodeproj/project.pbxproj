@@ -11,7 +11,7 @@
 		AD96A7352196C76C004B3874 /* AGCustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = AD96A7332196C76C004B3874 /* AGCustomControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD96A73E2196C776004B3874 /* AGCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96A73B2196C776004B3874 /* AGCustomButton.swift */; };
 		AD96A73F2196C776004B3874 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AD96A73C2196C776004B3874 /* LICENSE */; };
-		AD96A7402196C776004B3874 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD96A73D2196C776004B3874 /* README.md */; };
+		AD96A7462196D791004B3874 /* AGCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96A7452196D790004B3874 /* AGCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		AD96A7342196C76C004B3874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD96A73B2196C776004B3874 /* AGCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGCustomButton.swift; sourceTree = "<group>"; };
 		AD96A73C2196C776004B3874 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AD96A73D2196C776004B3874 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AD96A7452196D790004B3874 /* AGCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGCustomView.swift; sourceTree = "<group>"; };
 		AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.debug.xcconfig"; sourceTree = "<group>"; };
 		C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				AD96A73B2196C776004B3874 /* AGCustomButton.swift */,
+				AD96A7452196D790004B3874 /* AGCustomView.swift */,
 				AD96A73C2196C776004B3874 /* LICENSE */,
-				AD96A73D2196C776004B3874 /* README.md */,
 				AD96A7332196C76C004B3874 /* AGCustomControls.h */,
 				AD96A7342196C76C004B3874 /* Info.plist */,
 			);
@@ -155,7 +155,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD96A7402196C776004B3874 /* README.md in Resources */,
 				AD96A73F2196C776004B3874 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD96A73E2196C776004B3874 /* AGCustomButton.swift in Sources */,
+				AD96A7462196D791004B3874 /* AGCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

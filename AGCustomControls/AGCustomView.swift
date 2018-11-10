@@ -1,16 +1,16 @@
 //
-//  AGCustomButton.swift
+//  AGCustomView.swift
 //  demoControl
 //
-//  Created by Antonio Gonzalez Hidalgo on 09/11/2018.
+//  Created by Antonio Gonzalez Hidalgo on 10/11/2018.
 //  Copyright © 2018 Antonio Gonzalez Hidalgo. All rights reserved.
 //
 
 import UIKit
 
 @IBDesignable
-public class AGCustomButton: UIButton {
-    
+public class AGCustomView: UIView {
+
     @IBInspectable var backColor: UIColor = UIColor.clear {
         didSet {
             self.backgroundColor = backColor
@@ -20,9 +20,10 @@ public class AGCustomButton: UIButton {
     @IBInspectable var cornerRadius: CGFloat = 0.0 {
         didSet {
             self.layer.cornerRadius = cornerRadius
+            gradient.cornerRadius = cornerRadius
         }
     }
-    
+
     //MARK: - Shadow
     
     @IBInspectable var shadowOpacity: Float = 0.0 {
@@ -48,7 +49,7 @@ public class AGCustomButton: UIButton {
             self.layer.shadowColor = shadowColor.cgColor
         }
     }
-    
+
     //MARK: - Gradient
     private var gradient:CAGradientLayer = CAGradientLayer()
     
@@ -91,24 +92,25 @@ public class AGCustomButton: UIButton {
         }
     }
     
+    
     //MARK: - Init
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupAGCustomControl()
+        setupAGCustomView()
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        setupAGCustomControl()
+        setupAGCustomView()
     }
     
     override public func prepareForInterfaceBuilder() {
         super .prepareForInterfaceBuilder()
-        setupAGCustomControl()
+        setupAGCustomView()
     }
     
-    private func setupAGCustomControl(){
+    private func setupAGCustomView(){
         self.backgroundColor = backColor
         self.layer.cornerRadius = cornerRadius
         self.gradient.cornerRadius = cornerRadius

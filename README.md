@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/AGCustomControls.svg?style=flat)](https://cocoapods.org/pods/AGCustomControls)
 [![Platform](https://img.shields.io/cocoapods/p/AGCustomControls.svg?style=flat)](https://cocoapods.org/pods/AGCustomControls)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
 ## Installation
@@ -19,6 +15,37 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'AGCustomControls'
 ```
+
+## DESCRIPTION
+
+* **AGCustomButton**, it's a customizable UIButton. You can set up the bellow properties from interface builder:
+	* Corner Radius
+	* Shadow Opacity
+	* Shadow Radius
+	* Shadow Offset
+	* Shadow Color
+	* Enable Gradient
+	* Primary Color*
+	* Secunday Color*
+	* Start Point*
+	* End Point*
+	
+(*)These properties only take effect if gradient is enabled.
+ 
+* **AGCustomView**, it's a customizable UIView. You can set up the bellow properties from interface builder:
+	* Corner Radius
+	* Shadow Opacity
+	* Shadow Radius
+	* Shadow Offset
+	* Shadow Color
+	* Enable Gradient
+	* Primary Color*
+	* Secunday Color*
+	* Start Point*
+	* End Point*
+	
+(*)These properties only take effect if gradient is enabled.
+
 
 ## Author
 
