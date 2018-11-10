@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB3B132F171A006E4FEBE3A /* Pods_AGCustomControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */; };
 		AD96A7352196C76C004B3874 /* AGCustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = AD96A7332196C76C004B3874 /* AGCustomControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD96A73E2196C776004B3874 /* AGCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96A73B2196C776004B3874 /* AGCustomButton.swift */; };
 		AD96A73F2196C776004B3874 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AD96A73C2196C776004B3874 /* LICENSE */; };
@@ -14,12 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGCustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD96A7302196C76C004B3874 /* AGCustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGCustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD96A7332196C76C004B3874 /* AGCustomControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGCustomControls.h; sourceTree = "<group>"; };
 		AD96A7342196C76C004B3874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD96A73B2196C776004B3874 /* AGCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGCustomButton.swift; sourceTree = "<group>"; };
 		AD96A73C2196C776004B3874 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AD96A73D2196C776004B3874 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.debug.xcconfig"; sourceTree = "<group>"; };
+		C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGCustomControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGCustomControls/Pods-AGCustomControls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +31,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB3B132F171A006E4FEBE3A /* Pods_AGCustomControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4D38B70AFDAF19C9C2CFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E7729B5FFC4D379F12BE94 /* Pods_AGCustomControls.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4378F71A0CE8A679B224D236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */,
+				C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD96A7262196C76C004B3874 = {
 			isa = PBXGroup;
 			children = (
 				AD96A7322196C76C004B3874 /* AGCustomControls */,
 				AD96A7312196C76C004B3874 /* Products */,
+				4378F71A0CE8A679B224D236 /* Pods */,
+				3D4D38B70AFDAF19C9C2CFE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD96A7382196C76C004B3874 /* Build configuration list for PBXNativeTarget "AGCustomControls" */;
 			buildPhases = (
+				40297BEB03C341EC882F93B9 /* [CP] Check Pods Manifest.lock */,
 				AD96A72B2196C76C004B3874 /* Headers */,
 				AD96A72C2196C76C004B3874 /* Sources */,
 				AD96A72D2196C76C004B3874 /* Frameworks */,
@@ -136,6 +161,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40297BEB03C341EC882F93B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AGCustomControls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD96A72C2196C76C004B3874 /* Sources */ = {
@@ -273,6 +323,7 @@
 		};
 		AD96A7392196C76C004B3874 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7F530CA1FCD513DE1B8C00 /* Pods-AGCustomControls.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -300,6 +351,7 @@
 		};
 		AD96A73A2196C76C004B3874 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DA58CE5BD3E1F5FA863071 /* Pods-AGCustomControls.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
