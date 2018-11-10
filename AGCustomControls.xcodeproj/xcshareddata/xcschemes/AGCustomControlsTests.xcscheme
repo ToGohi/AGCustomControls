@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD96A72F2196C76C004B3874"
-               BuildableName = "AGCustomControls.framework"
-               BlueprintName = "AGCustomControls"
+               BlueprintIdentifier = "AD5755832197052A006922C8"
+               BuildableName = "AGCustomControlsTests.xctest"
+               BlueprintName = "AGCustomControlsTests"
                ReferencedContainer = "container:AGCustomControls.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,13 +28,23 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AD5755832197052A006922C8"
+               BuildableName = "AGCustomControlsTests.xctest"
+               BlueprintName = "AGCustomControlsTests"
+               ReferencedContainer = "container:AGCustomControls.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD96A72F2196C76C004B3874"
-            BuildableName = "AGCustomControls.framework"
-            BlueprintName = "AGCustomControls"
+            BlueprintIdentifier = "AD5755832197052A006922C8"
+            BuildableName = "AGCustomControlsTests.xctest"
+            BlueprintName = "AGCustomControlsTests"
             ReferencedContainer = "container:AGCustomControls.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -54,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD96A72F2196C76C004B3874"
-            BuildableName = "AGCustomControls.framework"
-            BlueprintName = "AGCustomControls"
+            BlueprintIdentifier = "AD5755832197052A006922C8"
+            BuildableName = "AGCustomControlsTests.xctest"
+            BlueprintName = "AGCustomControlsTests"
             ReferencedContainer = "container:AGCustomControls.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD96A72F2196C76C004B3874"
-            BuildableName = "AGCustomControls.framework"
-            BlueprintName = "AGCustomControls"
+            BlueprintIdentifier = "AD5755832197052A006922C8"
+            BuildableName = "AGCustomControlsTests.xctest"
+            BlueprintName = "AGCustomControlsTests"
             ReferencedContainer = "container:AGCustomControls.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

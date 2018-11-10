@@ -1,7 +1,9 @@
 language: objective-c
 osx_image: xcode10.1
 xcode_project: AGCustomControls.xcodeproj
-xcode_scheme: AGCustomControls
+xcode_scheme: AGCustomControlsTests
 branches:
   only:
   - develop
+script:
+  xcodebuild -project AGCustomControls.xcodeproj -scheme AGCustomControlsTests CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO build
