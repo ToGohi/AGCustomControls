@@ -20,30 +20,34 @@ pod 'AGCustomControls'
 
 * **AGCustomButton**, it's a customizable UIButton. You can set up the bellow properties from interface builder:
 	* Corner Radius
+	* Border Width
+	* Border Color
 	* Shadow Opacity
 	* Shadow Radius
 	* Shadow Offset
 	* Shadow Color
 	* Enable Gradient
 	* Primary Color*
-	* Secunday Color*
+	* Secondary Color*
 	* Start Point*
 	* End Point*
-	
+
 (*)These properties only take effect if gradient is enabled.
- 
+
 * **AGCustomView**, it's a customizable UIView. You can set up the bellow properties from interface builder:
 	* Corner Radius
+	* Border Width
+	* Border Color
 	* Shadow Opacity
 	* Shadow Radius
 	* Shadow Offset
 	* Shadow Color
 	* Enable Gradient
 	* Primary Color*
-	* Secunday Color*
+	* Secondary Color*
 	* Start Point*
 	* End Point*
-	
+
 (*)These properties only take effect if gradient is enabled.
 
 

@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable
 public class AGCustomView: UIView {
-
+    
     @IBInspectable var backColor: UIColor = UIColor.clear {
         didSet {
             self.backgroundColor = backColor
@@ -23,7 +23,21 @@ public class AGCustomView: UIView {
             gradient.cornerRadius = cornerRadius
         }
     }
-
+    
+    //MARK: - Border
+    
+    @IBInspectable var borderWidth: CGFloat = 0.0 {
+        didSet {
+            self.layer.borderWidth = borderWidth
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor = UIColor.clear {
+        didSet {
+            self.layer.borderColor = borderColor.cgColor
+        }
+    }
+    
     //MARK: - Shadow
     
     @IBInspectable var shadowOpacity: Float = 0.0 {
@@ -49,7 +63,7 @@ public class AGCustomView: UIView {
             self.layer.shadowColor = shadowColor.cgColor
         }
     }
-
+    
     //MARK: - Gradient
     private var gradient:CAGradientLayer = CAGradientLayer()
     

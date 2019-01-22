@@ -23,6 +23,20 @@ public class AGCustomButton: UIButton {
         }
     }
     
+    //MARK: - Border
+    
+    @IBInspectable var borderWidth: CGFloat = 0.0 {
+        didSet {
+            self.layer.borderWidth = borderWidth
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor = UIColor.clear {
+        didSet {
+            self.layer.borderColor = borderColor.cgColor
+        }
+    }
+    
     //MARK: - Shadow
     
     @IBInspectable var shadowOpacity: Float = 0.0 {
