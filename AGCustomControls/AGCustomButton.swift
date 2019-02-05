@@ -66,20 +66,7 @@ public class AGCustomButton: UIButton {
     //MARK: - Gradient
     private var gradient:CAGradientLayer = CAGradientLayer()
     
-    @IBInspectable var enableGradient: Bool = false {
-        didSet {
-            if (enableGradient){
-                gradient.colors = [primaryColor.cgColor, secundaryColor.cgColor]
-                gradient.frame = self.bounds
-                gradient.startPoint = startPoint
-                gradient.endPoint = endPoint
-                gradient.cornerRadius = cornerRadius
-                self.layer.insertSublayer(gradient, at: 0)
-            }else{
-                gradient.removeFromSuperlayer()
-            }
-        }
-    }
+    @IBInspectable var enableGradient: Bool = false
     
     @IBInspectable var primaryColor: UIColor = UIColor.white {
         didSet {
@@ -125,11 +112,24 @@ public class AGCustomButton: UIButton {
     private func setupAGCustomControl(){
         self.backgroundColor = backColor
         self.layer.cornerRadius = cornerRadius
-        self.gradient.cornerRadius = cornerRadius
         self.layer.shadowColor = shadowColor.cgColor
         self.layer.shadowOffset = shadowOffset
         self.layer.shadowOpacity = shadowOpacity
         self.layer.shadowRadius = shadowRadius
+        setupGradient()
+    }
+    
+    private func setupGradient(){
+        if (enableGradient){
+            gradient.colors = [primaryColor.cgColor, secundaryColor.cgColor]
+            gradient.frame = self.bounds
+            gradient.startPoint = startPoint
+            gradient.endPoint = endPoint
+            gradient.cornerRadius = cornerRadius
+            self.layer.insertSublayer(gradient, at: 0)
+        }else{
+            gradient.removeFromSuperlayer()
+        }
     }
     
 }
