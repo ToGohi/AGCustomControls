@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149385DC2447353400A3A349 /* AGCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149385DB2447353400A3A349 /* AGCustomImageView.swift */; };
 		AD24458A241040AD006F1832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD244589241040AD006F1832 /* AppDelegate.swift */; };
 		AD24458C241040AD006F1832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24458B241040AD006F1832 /* SceneDelegate.swift */; };
 		AD24458E241040AD006F1832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24458D241040AD006F1832 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149385DB2447353400A3A349 /* AGCustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGCustomImageView.swift; sourceTree = "<group>"; };
 		AD244587241040AD006F1832 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD244589241040AD006F1832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD24458B241040AD006F1832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				AD96A73B2196C776004B3874 /* AGCustomButton.swift */,
+				149385DB2447353400A3A349 /* AGCustomImageView.swift */,
 				AD96A7452196D790004B3874 /* AGCustomView.swift */,
 				AD96A73C2196C776004B3874 /* LICENSE */,
 				AD96A7332196C76C004B3874 /* AGCustomControls.h */,
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD96A73E2196C776004B3874 /* AGCustomButton.swift in Sources */,
+				149385DC2447353400A3A349 /* AGCustomImageView.swift in Sources */,
 				AD24459C24104521006F1832 /* AGCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +553,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apptonio.AGCustomControls;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -577,6 +582,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apptonio.AGCustomControls;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

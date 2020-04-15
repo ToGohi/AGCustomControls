@@ -18,6 +18,15 @@ pod 'AGCustomControls'
 
 ## Description
 
+* **AGCustomImageView**, it's a customizable UIImageview. You can set up the bellow properties from interface builder:
+	* Corner Radius
+	* Border Width
+	* Border Color
+	* Shadow Opacity
+	* Shadow Radius
+	* Shadow Offset
+	* Shadow Color
+
 * **AGCustomButton**, it's a customizable UIButton. You can set up the bellow properties from interface builder:
 	* Corner Radius
 	* Border Width
